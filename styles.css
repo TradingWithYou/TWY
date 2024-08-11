@@ -1,0 +1,232 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Hero Section */
+.hero {
+    background: #004085;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 5px solid #007bff;
+}
+
+.hero-text {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.cta-btn {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.cta-btn.secondary {
+    background-color: #17a2b8; /* Teal color for secondary buttons */
+}
+
+.cta-btn:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+}
+
+/* Our Services Section */
+.our-services {
+    padding: 50px 20px;
+    background: #e9ecef;
+    border-top: 5px solid #007bff;
+    text-align: center;
+}
+
+.our-services h2 {
+    margin-bottom: 20px;
+}
+
+.our-services p {
+    margin-bottom: 40px;
+}
+
+.service-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.service-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    position: relative; /* To position the banner */
+}
+
+.service-box.popular {
+    border-left: 5px solid #28a745; /* Green border for popular service */
+}
+
+.service-box .banner {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffeb3b; /* Yellow background for banner */
+    color: #000;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.service-box:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.service-box h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    margin-bottom: 20px;
+}
+
+.service-box a {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.service-box a:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+}
+
+/* About Us Section */
+.about-us {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    border-top: 5px solid #007bff;
+    text-align: center;
+}
+
+.about-us h2 {
+    color: #007bff;
+}
+
+/* Security Section */
+.security {
+    background: #fff;
+    padding: 50px 20px;
+    border-top: 5px solid #28a745;
+    text-align: center;
+}
+
+.security h2 {
+    color: #28a745;
+}
+
+/* Footer Section */
+footer {
+    background: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+}
+
+.social-media a:hover img {
+    opacity: 0.8;
+}
+
+/* Contact Us Button */
+.contact-us {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contact-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #218838;
+}
